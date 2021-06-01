@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+		*{
+		margin: 0; padding:0; box-sizing: border-box;
+		font-family: 'Mulish', sans-serif;}
+		.grand_parent{ width: 100vw; height:100vh;
+			background: #dfe6e9; color: #fff;}
+		h1{
+			font-size: 3rem;
+			padding: 20px 0;
+			text-align: center;
+			color: #000;
+		}
+		p{
+			text-align: center;
+			color: black;
+		}
+		.parents{ width: 80vw; height: auto; margin: auto;
+			display: flex;  justify-content: space-around;
+			flex-wrap: wrap; transition: all 0.2 linear;
+		}
+		.child{
+			height: 200px;
+			background:#bac3c3;
+			box-shadow: 0 0 20px #bac3c3;
+			flex:1 1 200px;
+			margin: 20px;
+			border: 1px solid black;
+			
+			
+		}
+		.inner-1
+		{
+			height: 50px;
+			width: 100%;
+			display: flex;
+			justify-content: flex-end;
+
+		}
+		.food-name-1
+		{
+			height: 50px;
+			width: 100px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border: 1px solid black;
+			background-color: #C14543;
+		}
+		.food-name-1 p
+		{
+			font-size: 1.5rem;
+			font-weight: bold;
+			color: black;
+		}
+		.inner-2
+		{
+			height: 50px;
+			width: 100%;
+			display: flex;
+			justify-content: flex-end;
+
+		}
+		.food-name-2
+		{
+			height: 50px;
+			width: 100px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border: 1px solid black;
+			background-color: #E5D198;
+		}
+		.food-name-2 p
+		{
+			font-size: 1.5rem;
+			font-weight: bold;
+			color: black;
+		}
+		.inner-3
+		{
+			height: 50px;
+			width: 100%;
+			display: flex;
+			justify-content: flex-end;
+
+		}
+		.food-name-3
+		{
+			height: 50px;
+			width: 100px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border: 1px solid black;
+			background-color: #D59898;
+		}
+		.food-name-3 p
+		{
+			font-size: 1.5rem;
+			font-weight: bold;
+			color: black;
+		}
+		@media (max-width: 768px){
+			.grand_parent{height:auto; }
+		}
+		</style>
+	</head>
+	<body>
+		<div class="grand_parent">
+			<h1> Our Menu </h1>
+			<div class="parents">
+				<div class="child">
+					<div class="inner-1"><div class="food-name-1"><p>Chicken</p></div></div>
+					<p>Lore doloribus vel, quia, molestias aliquam, aspernatur ducimus dignissimos praesentium ad possimus! Assumenda iure sequi debitis dolorum culpa.</p>
+				
+					</div>
+				<div class="child">
+					<div class="inner-2"><div class="food-name-2"><p>Beef</p></div></div>
+					<p>Lore doloribus vel, quia, molestias aliquam, aspernatur ducimus dignissimos praesentium ad possimus! Assumenda iure sequi debitis dolorum culpa.</p>
+				</div>
+				<div class="child">
+					<div class="inner-3"><div class="food-name-3"><p>Sushi</p></div></div>
+					<p>Lore doloribus vel, quia, molestias aliquam, aspernatur ducimus dignissimos praesentium ad possimus! Assumenda iure sequi debitis dolorum culpa.</p>
+				
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
